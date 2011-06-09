@@ -22,15 +22,15 @@ The theme is available as both WordPress and Blogger theme as well
  
 ## License
  
-New BSD License](http://www.opensource.org/licenses/bsd-license.php)
+[New BSD License](http://www.opensource.org/licenses/bsd-license.php)
  
 ## Credits
  
-    * Much of the contact form code from [Dev-tips.com](http://dev-tips.com/featured/ajax-and-php-contact-form)
-    * Icons by [Wefunction](http://wefunction.com/2008/07/function-free-icon-set/)
-    * [Modernizr](http://www.modernizr.com/)
-	* [Respond.js](https://github.com/scottjehl/Respond)
-    * HTML5 Boilerplate for some of the code
-    * Tyler Longren for WordPress version
-    * Rethnaraj Rambabu for Blogger version
-    * **You!** For being awesome
+* Much of the contact form code from [Dev-tips.com](http://dev-tips.com/featured/ajax-and-php-contact-form)
+* Icons by [Wefunction](http://wefunction.com/2008/07/function-free-icon-set/)
+* [Modernizr](http://www.modernizr.com/)
+* [Respond.js](https://github.com/scottjehl/Respond)
+* HTML5 Boilerplate for some of the code
+* Tyler Longren for WordPress version
+* Rethnaraj Rambabu for Blogger version
+* **You!** For being awesome
