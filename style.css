@@ -72,6 +72,8 @@ body {
 	font: 16px/28px Georgia, 'Times New Roman', Times, serif;
 	
 	/* CSS3 gradient background pattern @credits http://leaverou.me/demos/css3-patterns.html */
+	background: url(images/bg.png) repeat fixed;
+	
 	background-color: #eee; /* Change this to change both stribe colors */
 	
 	background-image: -webkit-gradient(linear, 0 100%, 100% 0,
@@ -82,9 +84,9 @@ body {
 	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
 							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
 							transparent 75%, transparent); /* New webkit syntax */					
-	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+	/*background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
 							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
-							transparent 75%, transparent); /* Firefox */
+							transparent 75%, transparent); *//* Firefox - Removed for now because of performance issues */
 	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
 							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
 							transparent 75%, transparent); /* Opera */
@@ -118,7 +120,7 @@ a {
 	color: #F71570;
 	text-decoration: none;
 	-webkit-transition: all 100ms linear;
-	/*-moz-transition: all 100ms linear;*/
+	-moz-transition: all 100ms linear;
 	transition: all 100ms linear;
 }
 
@@ -387,7 +389,6 @@ hr {
 	
 	/* Gain the benefits from GPU acceleration */
 	-webkit-transform: translateZ(0);
-	/*-moz-transform: translateZ(0);*/
 	transform: translateZ(0);
 }
 
@@ -397,7 +398,7 @@ hr {
 	
 	/* Scale the site title on hover */
 	-webkit-transform: scale(1.1) translateZ(0);
-	/*-moz-transform: scale(1.1) translateZ(0);*/
+	-moz-transform: scale(1.1);
 	transform: scale(1.1) translateZ(0);
 }
 
@@ -506,7 +507,7 @@ legend {
 	padding: 14px 20px;
 	text-shadow: 0 1px 0 #AC0649;
 	-webkit-transition: all 100ms linear;
-	/*-moz-transition: all 100ms linear;*/
+	-moz-transition: all 100ms linear;
 	transition: all 100ms linear;
 }
 
@@ -571,7 +572,7 @@ input[type=submit]:hover {
 	font-weight: bold;
 	letter-spacing: -1px;
 	-webkit-transition: color 150ms ease-in-out;
-	/*-moz-transition: color 150ms ease-in-out;*/
+	-moz-transition: color 150ms ease-in-out;
 	transition: color 150ms ease-in-out;
 }
 
@@ -651,7 +652,7 @@ figure {
 	padding: 10px;
 	text-align: center;
 	-webkit-transition: border 200ms ease;
-	/*-moz-transition: border 200ms ease;*/
+	-moz-transition: border 200ms ease;
 	transition: border 200ms ease;
 }
 
@@ -724,7 +725,7 @@ figcaption {
 	.widget li a { 
 		color: #333;
 		-webkit-transition: margin-left 300ms linear;
-		/*-moz-transition: margin-left 300ms linear;*/
+		-moz-transition: margin-left 300ms linear;
 		transition: margin-left 300ms linear;
 	}
 	
